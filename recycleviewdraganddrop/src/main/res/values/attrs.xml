@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QuickGroup">
+        <attr name="itemWidth" format="reference|dimension" />
+        <attr name="itemHeight" format="reference|dimension" />
+        <attr name="colNum" format="reference|integer" />
+        <attr name="verticalSpace" format="reference|dimension" />
+        <attr name="horizontalSpace" format="reference|dimension" />
+    </declare-styleable>
+</resources>

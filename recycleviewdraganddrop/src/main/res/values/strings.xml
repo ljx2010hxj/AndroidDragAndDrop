@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RecycleView drag and drop</string>
+    <string name="editor_title_txt">Editor</string>
+    <string name="drag_to_remove_tiles">Drag to down to remove</string>
+    <string name="drag_to_add_tiles">Drag to up to add</string>
+    <string name="rotation_item_title">rotation</string>
+    <string name="accessibility_item_title">accessibility</string>
+    <string name="account_balance_item_title">account balance</string>
+    <string name="shopping_item_title">shopping</string>
+    <string name="alarm_add_item_title">alarm add</string>
+    <string name="alarm_off_item_title">alarm off</string>
+    <string name="android_item_title">android</string>
+    <string name="announcement_item_title">announcement</string>
+    <string name="return_item_title">return</string>
+    <string name="backup_item_title">backup</string>
+    <string name="book_item_title">book</string>
+    <string name="bookmark_item_title">bookmark</string>
+    <string name="build_item_title">build</string>
+    <string name="cached_item_title">cached</string>
+    <string name="camera_item_title">camera</string>
+    <string name="travel_item_title">travel</string>
+    <string name="history_item_title">history</string>
+    <string name="check_item_title">check</string>
+    <string name="reader_item_title">reader</string>
+    <string name="code_item_title">code</string>
+    <string name="arrow_item_title">arrow</string>
+    <string name="copyright_item_title">copyright</string>
+    <string name="credit_item_title">credit</string>
+    <string name="dashboard_item_title">dashboard</string>
+    <string name="date_item_title">date</string>
+    <string name="delete_item_title">delete</string>
+    <string name="description_item_title">description</string>
+    <string name="done_item_title">done</string>
+    <string name="event_item_title">event</string>
+    <string name="exit_item_title">exit</string>
+    <string name="explore_item_title">explore</string>
+    <string name="face_item_title">face</string>
+    <string name="favorite_item_title">favorite</string>
+    <string name="find_item_title">find</string>
+
+    <string name="def_items_str" translatable="false">face,android,event,camera</string>
+    <string name="all_items_str" translatable="false">rotation,accessibility,accountbalance,shopping,alarmadd,alarmoff,android,announcement,return,backup,book,bookmark,build,cached,camera,travel,history,check,reader,code,arrow,copyright,credit,dashboard,date,delete,description,done,event,exit,explore,face,favorite,find</string>
+</resources>

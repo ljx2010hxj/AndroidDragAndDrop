@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.nida.gridviewdraganddrop.view.DragGridView
+        android:id="@+id/above_grid_view"
+        style="@style/EditorDragGridViewStyle" />
+
+    <com.nida.gridviewdraganddrop.view.EmptyLayout
+        android:id="@+id/above_empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/divider_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="10dp"
+            android:text="长按图标拖动排序" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_divider_line" />
+
+    </LinearLayout>
+
+
+    <com.nida.gridviewdraganddrop.view.DragGridView
+        android:id="@+id/below_grid_view"
+        style="@style/EditorDragGridViewStyle" />
+
+    <com.nida.gridviewdraganddrop.view.EmptyLayout
+        android:id="@+id/below_empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/colorAccent"
+        android:visibility="gone" />
+
+</merge>
